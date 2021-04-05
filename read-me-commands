@@ -1,0 +1,5 @@
+curl -XPUT "localhost:9200/get-together" {"name":"ES Quebec","organizer":"Phil Trapha"}
+curl -XGET "http://localhost:9200/_cluster/state?pretty"
+health?pretty
+VER los indices yellow
+cat -v -GET localhost:9200/_cat/indices?pretty 
